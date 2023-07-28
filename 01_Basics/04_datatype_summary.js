@@ -49,3 +49,33 @@ console.log(typeof id);             // symbol
 
 // refer  the link 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ---------------------------------------------------------------------------
+
+
+// Stack (Primitve), Heap (Non-Primitive)
+
+// Stack (Primitve) - we get copy of data 
+
+
+// Heap (Non-Primitive) - we get original data from reference
+
+
+let myYoutubename = "oisansari"
+let anothername = myYoutubename
+anothername = "ansariois"
+
+console.log(anothername);
+
+let userOne = {
+    email: "owais@google.com",
+    idno: "223399"
+}
+
+let userTwo = userOne
+console.log(userTwo.email);
+userTwo.email = "ois@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
