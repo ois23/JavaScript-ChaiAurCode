@@ -15,10 +15,11 @@ const myArray2 = new Array(2, 3, 4)         // we can also write array's element
 
 // Array methods
 
-    // Push method      - used to add element at last position 
+//----------- Push method      - used to add element at last position 
+
 myArray.push(3)                 // add new element "3" at the last/End of array
 // console.log(myArray);           // => [1, 2, 3, 4, 5, 6, 7, 3]
-myArray.push(8)
+myArray.push(8) 
 // console.log(myArray);           // => [1, 2, 3, 4, 5, 6, 7, 3, 8]
 
 // myArray.push(" Hi")
